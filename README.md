@@ -1,4 +1,4 @@
-# WIP: A redesign of portfolio... 
+# A webpage to hold all my links
 
-<a href="https://ruhend.github.io/WIP-alternative">https://ruhend.github.io/WIP-alternative</a>
+<a href="https://ruhend.github.io/links">https://ruhend.github.io/links</a>
 
