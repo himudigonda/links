@@ -134,8 +134,8 @@ ul {
 
 .slider {
   position: absolute;
-  margin-left: -10px;
-  margin-right: -10px;
+  margin-left: -20px;
+  margin-right: 0px;
   cursor: pointer;
   top: 0;
   left: 0;
@@ -277,19 +277,6 @@ img {
   justify-content: space-between;
   align-items: center;
   font-weight: var(--font-semi);
-}
-
-@media screen and (max-width: 768px) {
-  .nav__menu {
-    position: fixed;
-    top: var(--header-height);
-    right: -100%;
-    width: 60%;
-    height: 100%;
-    padding: 2rem;
-    background-color: var(--nav-color);
-    transition: 0.5s;
-  }
 }
 
 .nav__item {
@@ -440,6 +427,9 @@ img {
 .button:hover {
   box-shadow: 0 0 8px var(--first-color);
   color: #2c2c2c;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+
 }
 /* ===== FOOTER =====*/
 
