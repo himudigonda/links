@@ -351,6 +351,9 @@ img {
 .home {
   height: calc(100vh - 3rem);
   row-gap: 3rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
 .home__data {
@@ -408,8 +411,8 @@ img {
 .home__img {
   position: absolute;
   bottom: 5%;
-  right: 10%;
-  width: 220px;
+  right: 5%;
+  width: 170px;
   border-radius: 50%;
   box-shadow: 0px 0px 0px 15px var(--nav-color), 0 0 16px 15px var(--nav-color);
 }
@@ -428,6 +431,10 @@ img {
   font-weight: var(--font-semi);
   border-radius: 20px;
   margin-bottom: 15px;
+  width: 250px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .button:hover {
@@ -542,9 +549,10 @@ img {
     /* color: var(--backg-color) */
   }
   .home__img {
-    width: 250px;
     bottom: 25%;
-    right: 10%;
+    right: 5%;
+    width: 220px;
+
     /* border-radius: 50%; */
   }
   
@@ -556,7 +564,7 @@ img {
     margin-right: auto;
   }
   .home__img {
-    right: 15%;
+    right: 10%;
   }
 }
 
