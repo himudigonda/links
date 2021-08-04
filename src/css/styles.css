@@ -111,6 +111,74 @@ ul {
   list-style: none;
 }
 
+#preloader {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  position: fixed;
+  background-color: var(--backg-color);
+}
+
+#loading-animation {
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  margin: -100px 0 0 -100px;
+  /* background: url("loading-animation.gif") center center no-repeat; */
+}
+
+/* The dot */
+.dot {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  z-index: 10;
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  border-radius: 999px;
+  background-color: var(--first-color);
+  /* transform-type: preserve-3d; */
+  animation: loader 1s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+}
+
+.dot:nth-child(2) {
+  z-index: 9;
+  animation-delay: 0.08s;
+  background-color: var(--backg-color2);
+}
+
+.dot:nth-child(3) {
+  z-index: 8;
+  animation-delay: 0.16s;
+  background-color: var(--first-color);
+}
+.dot:nth-child(4) {
+  z-index: 7;
+  animation-delay: 0.21s;
+  background-color: var(--backg-color2);
+}
+.dot:nth-child(5) {
+  z-index: 6;
+  animation-delay: 0.26s;
+  background-color: var(--first-color);
+}
+
+@keyframes loader {
+  0% {
+    left: 10%;
+    transform: translateX(0);
+  }
+  50% {
+    left: 90%;
+    transform: translateX(-100%);
+  }
+}
+
 /* The switch - the box around the slider */
 
 .switch {
