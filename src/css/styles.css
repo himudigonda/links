@@ -663,6 +663,6 @@ img {
   min-height: calc(100vh - 3rem);
 } 
 .footer {
-  /* margin-bottom: 10px; */
-  height: calc(50vh - 3rem);
+  /* height: calc(50vh - 1rem); */
+  height: 330px;
 }
